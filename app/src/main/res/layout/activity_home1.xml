@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Home"
+    tools:context=".home1">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentcontainer"
+        android:layout_above="@+id/bottombar">
+
+    </androidx.fragment.app.FragmentContainerView>
+    <LinearLayout
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:background="#ffff"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/home"
+            android:background="@drawable/round_back_home_100"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/homeimg"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_baseline_home_selected_24">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/hometxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textStyle="bold"
+                android:textColor="@color/Home"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/report"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/reportimg"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_baseline_show_chart_selected_24">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/reporttxt"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report"
+                android:textStyle="bold"
+                android:textColor="@color/Report"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/calculator"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/calculatorimg"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_baseline_calculate_selected_24">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/calculatortxt"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculate"
+                android:textStyle="bold"
+                android:textColor="@color/Calculator"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profile"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/profileimg"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_baseline_person_selected_24">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/profiletxt"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textStyle="bold"
+                android:textColor="@color/Report"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.widget.RelativeLayout>

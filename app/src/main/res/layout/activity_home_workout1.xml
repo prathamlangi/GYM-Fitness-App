@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeWorkout1">
+
+
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/title_background">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Workout"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="35dp"
+            android:textStyle="bold">
+        </TextView>
+
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+        <ImageView
+            android:id="@+id/homechest"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/chest"
+            android:scaleType="centerCrop">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chest"
+                android:textColor="@color/white"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
+        </LinearLayout>
+        <!--            </LinearLayout>-->
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+        <ImageView
+            android:id="@+id/homeback"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/back"
+            android:scaleType="centerCrop">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/white"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
+
+
+        </LinearLayout>
+        <!--            </LinearLayout>-->
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+        <ImageView
+            android:id="@+id/homeshoulder"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/shoulder"
+            android:scaleType="centerCrop">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shoulder"
+                android:textColor="@color/white"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
+
+        </LinearLayout>
+        <!--            </LinearLayout>-->
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+        <ImageView
+            android:id="@+id/homearms"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/arm"
+            android:scaleType="centerCrop">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arms"
+                android:textColor="@color/white"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
+
+        </LinearLayout>
+        <!--            </LinearLayout>-->
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+        <ImageView
+            android:id="@+id/homelegs"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/leg"
+            android:scaleType="centerCrop">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Legs"
+                android:textColor="@color/white"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
+
+        </LinearLayout>
+        <!--            </LinearLayout>-->
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+        <ImageView
+            android:id="@+id/homeabs"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/abs"
+            android:scaleType="centerCrop">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abs"
+                android:textColor="@color/white"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
+
+        </LinearLayout>
+        <!--            </LinearLayout>-->
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PPLWorkout">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/title_background">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Push/Pull/Leg"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:textSize="35dp"
+                android:textStyle="bold">
+            </TextView>
+
+
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:orientation="vertical">-->
+            <ImageView
+                android:id="@+id/pplpush"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/splashscreen"
+                android:scaleType="centerCrop">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PUSH"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="45dp"
+                    android:gravity="center"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent">
+                </TextView>
+            </LinearLayout>
+            <!--            </LinearLayout>-->
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:orientation="vertical">-->
+            <ImageView
+                android:id="@+id/pplpull"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/splashscreen"
+                android:scaleType="centerCrop">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PULL"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="45dp"
+                    android:gravity="center"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent">
+                </TextView>
+
+
+            </LinearLayout>
+            <!--            </LinearLayout>-->
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:orientation="vertical">-->
+            <ImageView
+                android:id="@+id/ppllegs"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/splashscreen"
+                android:scaleType="centerCrop">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LEGS"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="45dp"
+                    android:gravity="center"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent">
+                </TextView>
+
+            </LinearLayout>
+            <!--            </LinearLayout>-->
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

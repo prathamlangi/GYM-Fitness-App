@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gymfitness">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GYMFITNESS"
+        tools:targetApi="31">
+        <activity
+            android:name=".HomePlank"
+            android:exported="false" />
+        <activity
+            android:name=".HomeRussiantwist"
+            android:exported="false" />
+        <activity
+            android:name=".HomeVups"
+            android:exported="false" />
+        <activity
+            android:name=".HomeBicyclecrunches"
+            android:exported="false" />
+        <activity
+            android:name=".HomeSitups"
+            android:exported="false" />
+        <activity
+            android:name=".HomeTricepstretch"
+            android:exported="false" />
+        <activity
+            android:name=".HomePushuplowhold"
+            android:exported="false" />
+        <activity
+            android:name=".HomeMilitarypushups"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFloortricepdips"
+            android:exported="false" />
+        <activity
+            android:name=".HomeChinpullups"
+            android:exported="false" />
+        <activity
+            android:name=".HomeChildpose"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFloorYraises"
+            android:exported="false" />
+        <activity
+            android:name=".HomeSupinepushup"
+            android:exported="false" />
+        <activity
+            android:name=".HomeHyperextension"
+            android:exported="false" />
+        <activity
+            android:name=".HomePullups"
+            android:exported="false" />
+        <activity
+            android:name=".HomeHindupushup1"
+            android:exported="false" />
+        <activity
+            android:name=".HomeJumpingjack1"
+            android:exported="false" />
+        <activity
+            android:name=".HomePikepushup1"
+            android:exported="false" />
+        <activity
+            android:name=".HomeInchworm"
+            android:exported="false" />
+        <activity
+            android:name=".HomePikepushup"
+            android:exported="false" />
+        <activity
+            android:name=".HomeButterflystretch"
+            android:exported="false" />
+        <activity
+            android:name=".HomeWallsit"
+            android:exported="false" />
+        <activity
+            android:name=".HomeJumpSquats"
+            android:exported="false" />
+        <activity
+            android:name=".HomeLunges"
+            android:exported="false" />
+        <activity
+            android:name=".HomeSquats"
+            android:exported="false" />
+        <activity
+            android:name=".HomeCobrastretch"
+            android:exported="false" />
+        <activity
+            android:name=".HomeDiamondpushups"
+            android:exported="false" />
+        <activity
+            android:name=".HomeHindupushups"
+            android:exported="false" />
+        <activity
+            android:name=".HomePushups"
+            android:exported="false" />
+        <activity
+            android:name=".HomeInclinepushup"
+            android:exported="false" />
+        <activity
+            android:name=".HomeJumpjack"
+            android:exported="false" />
+        <activity
+            android:name=".SplitAbs"
+            android:exported="false" />
+        <activity
+            android:name=".SplitLegs"
+            android:exported="false" />
+        <activity
+            android:name=".SplitArms"
+            android:exported="false" />
+        <activity
+            android:name=".SplitShoulder"
+            android:exported="false" />
+        <activity
+            android:name=".SplitBack"
+            android:exported="false" />
+        <activity
+            android:name=".SplitChest"
+            android:exported="false" />
+        <activity
+            android:name=".PPlLegs"
+            android:exported="false" />
+        <activity
+            android:name=".PPlPull"
+            android:exported="false" />
+        <activity
+            android:name=".PPLPush"
+            android:exported="false" />
+        <activity
+            android:name=".TwitterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FacebookAuthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GooglesigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".forgetpassword"
+            android:exported="false" />
+        <activity
+            android:name=".HomeAbs"
+            android:exported="false" />
+        <activity
+            android:name=".HomeLegs"
+            android:exported="false" />
+        <activity
+            android:name=".HomeArms"
+            android:exported="false" />
+        <activity
+            android:name=".HomeShoulder"
+            android:exported="false" />
+        <activity
+            android:name=".HomeBack"
+            android:exported="false" />
+        <activity
+            android:name=".HomeChest"
+            android:exported="false" />
+        <activity
+            android:name=".HomeWorkout"
+            android:exported="false" />
+        <activity
+            android:name=".SplitWorkout"
+            android:exported="false" />
+        <activity
+            android:name=".PPLWorkout"
+            android:exported="false" />
+        <activity
+            android:name=".HomeWorkout1"
+            android:exported="false" />
+        <activity
+            android:name=".bmiactivity"
+            android:exported="false" />
+        <activity
+            android:name=".home1"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Slplashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+    </application>
+
+</manifest>

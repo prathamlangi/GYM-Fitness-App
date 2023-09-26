@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeAbs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abs Workout"
+                android:textSize="35dp"
+                android:background="@drawable/title_background"
+                android:textColor="@color/white">
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homesitups"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:src="@drawable/situps"
+                    android:scaleType="centerCrop">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Sit Ups                     x20">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homebicyclecrunches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:src="@drawable/bicyclecrunches"
+                    android:scaleType="centerCrop">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Bicycle Crunches         x14">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homevups"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:src="@drawable/vups"
+                    android:scaleType="centerCrop">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="V-Ups                     x12">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homerussiantwist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:src="@drawable/russiantwist"
+                    android:scaleType="centerCrop">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Russian Twist         x26">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homeplank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:src="@drawable/plank"
+                    android:scaleType="centerCrop">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Plank                 60sec">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
